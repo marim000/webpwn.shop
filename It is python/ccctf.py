@@ -1,0 +1,3 @@
+import flag
+
+flag.main()
