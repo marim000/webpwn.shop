@@ -2,13 +2,13 @@ from flask import Flask, session, render_template, request
 import os, random, hashlib, subprocess
 
 app = Flask(__name__)
-app.secret_key = "tyojongccctf"
+app.secret_key = "*******"
 
 @app.route('/', methods=['GET'])
 @app.route('/index')
 def index():
     if 'mysession' not in session :
-        rand_hash = hashlib.md5(('sessionhash'+str(random.randint(0,999999))).encode('utf-8')).hexdigest()
+        rand_hash = hashlib.md5(('*******'+str(random.randint(0,999999))).encode('utf-8')).hexdigest()
         session['mysession'] = rand_hash
 
         os.makedirs('./sessions/'+session['mysession'])
