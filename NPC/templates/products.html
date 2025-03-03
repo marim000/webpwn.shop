@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NPC</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .product {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+        .product:last-child {
+            border-bottom: none;
+        }
+        .product h2 {
+            margin: 0;
+            font-size: 18px;
+            color: #00bf63;
+        }
+        .product p {
+            margin: 0;
+            color: #555;
+        }
+        .product a {
+            text-decoration: none;
+            color: #7ed957;
+        }
+        .feedback-form {
+            margin-top: 30px;
+        }
+        .feedback-form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .feedback-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .feedback-form button {
+            background-color: #7ed957;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .feedback-form button:hover {
+            background-color: #00bf63;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-image: url(../static/img/background.png);
+            background-position: center;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-image: url(../static/img/background.png);
+            background-position: center;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/introduce">About Us</a>
+        <a href="/products">Products</a>
+        <a href="/applicants">Manage Applicants</a>
+    </nav>
+    <div class="container">
+        <h1>Our Products</h1>
+        <div class="product">
+            <div>
+                <h2>[Season] Winterboard</h2>
+                <p>PC buried in the snow for 10 years.</p>
+            </div>
+            <a href="/product/1">View Details</a>
+        </div>
+        <div class="product">
+            <div>
+                <h2>[Best] Fallenleaves</h2>
+                <p>PC with a CPU made of leaves.</p>
+            </div>
+            <a href="/product/2">View Details</a>
+        </div>
+        <div class="product">
+            <div>
+                <h2>[Sale] Wooden</h2>
+                <p>PC made of only wood</p>
+            </div>
+            <a href="/product/3">View Details</a>
+        </div>
+
+        <div class="feedback-form">
+            <h2>Leave Feedback</h2>
+            <form action="/feedback" method="POST">
+                <label for="feedback">Your Feedback:</label>
+                <textarea id="feedback" name="feedback" rows="4" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 NPC. All Rights Reserved.
+    </footer>
+</body>
+</html>

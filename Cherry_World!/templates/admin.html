@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cherry World</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background: linear-gradient(to bottom, #ffdddd, #ffcccc);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #8b0000;
+            background-image: url('https://www.transparenttextures.com/patterns/cherry.jpg');
+            background-size: 200px;
+        }
+        h1 {
+            font-size: 4rem;
+            margin-bottom: 2rem;
+            text-shadow: 2px 2px 4px #8b0000, -2px -2px 4px #ff99aa;
+        }
+        .buttons {
+            display: flex;
+            gap: 1.5rem;
+        }
+        button {
+            padding: 0.8rem 1.8rem;
+            font-size: 1.2rem;
+            color: white;
+            background-color: #d72638;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px #a61e2e;
+            cursor: pointer;
+            transition: transform 0.2s, background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #be1e32;
+            transform: translateY(-2px);
+        }
+        button:active {
+            transform: translateY(2px);
+            box-shadow: 0 2px #a61e2e;
+        }
+        footer {
+            margin-top: 2rem;
+            font-size: 0.9rem;
+            color: #8b0000;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome, Admin!</h1>
+    <pre>{{ flag }}</pre>
+    <div class="buttons">
+        <a href="/"><button>Back to Cherry World</button></a>
+    </div>
+    <footer>🍒 Enjoy your stay in Cherry World! 🍒</footer>
+</body>
+</html>

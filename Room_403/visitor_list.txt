@@ -1,0 +1,54 @@
+# Visitor List - Daily Hotel Log
+
+1. Name: John Doe
+   Check-out Time: 08:45 AM
+   Room Number: 302
+   Duration: 2 nights
+
+2. Name: Jane Smith
+   Check-out Time: 09:30 AM
+   Room Number: 405
+   Duration: 1 night
+
+3. Name: Olivia Taylor
+   Check-out Time: 10:15 AM
+   Room Number: 210
+   Duration: 3 nights
+
+4. Name: Emily Carter
+   Check-out Time: 11:00 AM
+   Room Number: 403
+   Duration: 1 night
+
+5. Name: Robert Wilson
+   Check-in Time: 03:20 PM
+   Room Number: 103
+   Duration: 2 nights
+
+6. Name: Sarah Lee
+   Check-in Time: 03:30 PM
+   Room Number: 308
+   Duration: 1 night
+
+7. Name: Michael Brown
+   Check-in Time: 04:00 PM
+   Room Number: 411
+   Duration: 2 nights
+
+8. Name: Sophia Davis
+   Check-in Time: 05:15 PM
+   Room Number: 201
+   Duration: 3 nights
+
+9. Name: Alex Johnson
+    Check-in Time: 04:30 PM
+    Room Number: 403
+    Duration: 2 nights
+    WP{**flag**}
+
+10. Name: William Martinez
+   Check-in Time: 06:45 PM
+   Room Number: 602
+   Duration: 1 night
+
+# End of Visitor List

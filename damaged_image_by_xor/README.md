@@ -1,0 +1,1 @@
+This image was encrypted by some single byte.
